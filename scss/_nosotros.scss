@@ -1,0 +1,61 @@
+/*----------------- PAGINA NOSOTROS----------------- */
+
+.nosotrosTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotrosTitle h1{
+    font-weight:500;
+    font-size: 4rem;
+    margin-top: 4rem;
+    background-color:$colorprincipal;
+    padding:1rem
+}
+
+.nosotrosTitle p{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.consecoHistory{
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.historyText{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.historyPicture{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.historyText h2{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.historyText p{
+    font-size:2rem;
+    width: 57rem;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+}
+
+.historyParagraph{
+    margin-top: 1rem;
+}

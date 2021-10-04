@@ -1,0 +1,118 @@
+/*----------------- HOME -------------------------- */
+
+.bannerHome{
+    background-image: url(../imagenes/inicio.jpg);
+    width: 100%;
+    height: 78vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.bannerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12rem
+}
+
+.bannerText h1{
+    font-size: 8rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: $fuenteprincipal;  
+    font-weight: 500;
+    width:50%;
+    height: 50%;
+    letter-spacing: 2px;
+}
+
+.bannerText p{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;   
+    font-weight: 400;
+    width: 90%;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+
+.bannerText button{
+    width: 150px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 1rem;
+    background-color:#cce2ce77;
+    padding: 4px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.bannerText button a{
+    text-decoration: none;
+    color: white;
+    font-family:$fuenteprincipal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.bannerText button:hover{
+    background-color:$colorprincipal;
+}
+
+.bannerText button a:hover{
+    color: black;
+}
+
+.subtitlesHome div h2 {
+    display: flex;
+    justify-content: center;
+    font-weight:400;
+    align-items: center;
+    font-size: 3rem;
+    height: 15rem;
+}
+
+.cardInicio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cardInicio div article{
+    height: 320px;
+    width:300px;
+    font-family:$fuenteprincipal;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:$colorprincipal;
+    padding: 1rem;
+    margin-bottom:8rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    border-radius: 1rem;
+
+}
+
+.cardInicio div article h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 10%;
+}
+
+.cardInicio div article img{
+    padding: 1rem;  
+}
+
+.cardInicio div article p{
+    width: 100%;
+    text-align: center;
+}

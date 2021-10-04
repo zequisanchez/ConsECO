@@ -1,0 +1,57 @@
+/*----------------- CONTACTO----------------- */
+
+.contactTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+.contactTitle h1{
+    font-size: 5rem;
+    background-color:$colorprincipal;
+    padding:1rem;
+    width: 75%;
+    margin-bottom: 2rem;
+}
+
+.contactTitle h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    width: 90% ;
+    margin-bottom: 2rem;
+}
+
+.contactForm{
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.contactForm form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 40%;
+    font-size: 2rem;
+}
+
+.contactForm div input, .contactForm form div select {
+    height: 4rem;
+    margin-top: 1rem;
+    transition: all 0.5s ease-in-out
+}
+
+.contactForm div input:focus , .contactForm form div select:focus {
+    background-color: #cef7d2da;
+    transform:scale(1.05)
+}
+.textArea label{
+    margin-bottom: 1rem;
+}
+.contactBottom input{
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color: #b2d4b4;
+    font-family:$fuenteprincipal;
+    font-weight: 800;
+}

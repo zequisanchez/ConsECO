@@ -1,0 +1,93 @@
+/*------------ PAGINAS RESERVAR----------------- */
+
+.bannerReservar{
+    background-image: url(../imagenes/banner-reservar1.jpg);
+    height: 76vh;
+    background-position: center center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchReservar{
+    background-color:#e3f0e4bd;     
+    height: 50%;
+    width: 80%;
+    border-radius: 2rem;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    box-shadow: 5px 3px 10px 1px;
+    padding: 1rem 4rem;
+}
+
+.searchReservar h1{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: $fuentesecundaria; 
+    color: black;
+}
+
+.botonCotizar{
+    display: flex;
+    align-items: center;
+}
+
+.botonCotizar div input{
+    padding: 0.9rem 3rem;
+    background-color: $colorprincipal;
+    border-radius: 1rem;    
+}
+
+.searchReservar p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.cardsReservar{
+    margin-top: 7rem;
+}
+
+.cardsReservar h2{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.boxReservar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 45rem 45rem;
+    grid-column-gap:3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.boxReservar div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    transition: all 500ms ease;
+}
+
+.boxReservar div:hover{ 
+    transform: scale(1.05);
+}
+
+.boxReservar h3 {
+    font-size: 2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.boxReservar p{
+    font-size: 1.5rem ;
+}

@@ -1,0 +1,87 @@
+/*----------------- PAGINA GLAMPING----------------- */
+
+.bannerGlamping{
+    background-image:url(../imagenes/banner-glamping.jpg);
+    height: 76vh;
+    background-position: center center ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.bannerGlamping div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    width: 50%;
+    margin-left: 12rem
+}
+
+.bannerGlamping h1{
+    font-size: 8rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: $fuenteprincipal;  
+    font-weight: 500;
+    width:100%;
+    height: 50%;
+    letter-spacing: 2px;
+}
+
+.bannerGlamping p{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;   
+    font-weight: 400;
+    width: 90%;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+
+.sustainableCard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 4rem;
+    height: 100vh;
+}
+
+.sustainablePicture{
+    display: flex;
+    justify-content: center;
+}
+
+.sustainableText, .luxuryCard{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.sustainableText h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.sustainableText p{
+    font-size: 2rem;
+    width: 60%;
+}
+
+.luxuryCard{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.luxuryCard h2{
+    text-align: right;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.luxuryCard p{
+    font-size: 2rem;
+    text-align: right;
+    margin-left: 10rem;
+}

@@ -1,0 +1,936 @@
+/*------------------ FONT -------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;  */
+/*------------------ RESET -------------------- */
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+/*------------------ HEADER-------------------- */
+.logoPrincipal {
+  width: 10rem;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar {
+  padding-bottom: 0rem;
+}
+
+.navConseco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navConseco ul li {
+  padding: 0 5rem 0 5rem;
+}
+
+.navConseco ul li a {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navConseco ul li:hover {
+  background-color: #C6EBC9;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.iconoSubirContainer {
+  position: fixed;
+  right: 2%;
+  bottom: 10%;
+}
+
+.iconoSubirContainer a img {
+  height: 5rem;
+  width: 5rem;
+  vertical-align: middle;
+  border-style: none;
+  opacity: 0.7;
+}
+
+/*----------------- FOOTER----------------- */
+footer {
+  background-color: #C6EBC9;
+  border-top: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 2rem;
+}
+
+.socialMedia {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.copyrightAutor {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.copyrightAutor p {
+  margin-bottom: 0;
+}
+
+/*----------------- FOOTER ---------------- */
+/*----------------- HOME -------------------------- */
+.bannerHome {
+  background-image: url(../imagenes/inicio.jpg);
+  width: 100%;
+  height: 78vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 12rem;
+}
+
+.bannerText h1 {
+  font-size: 8rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  width: 50%;
+  height: 50%;
+  letter-spacing: 2px;
+}
+
+.bannerText p {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: white;
+  font-weight: 400;
+  width: 90%;
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+
+.bannerText button {
+  width: 150px;
+  font-size: 2rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #cce2ce77;
+  padding: 4px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.bannerText button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.bannerText button:hover {
+  background-color: #C6EBC9;
+}
+
+.bannerText button a:hover {
+  color: black;
+}
+
+.subtitlesHome div h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 400;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+  height: 15rem;
+}
+
+.cardInicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.cardInicio div article {
+  height: 320px;
+  width: 300px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #C6EBC9;
+  padding: 1rem;
+  margin-bottom: 8rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  border-radius: 1rem;
+}
+
+.cardInicio div article h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  height: 10%;
+}
+
+.cardInicio div article img {
+  padding: 1rem;
+}
+
+.cardInicio div article p {
+  width: 100%;
+  text-align: center;
+}
+
+/*------------ PAGINAS RESERVAR----------------- */
+.bannerReservar {
+  background-image: url(../imagenes/banner-reservar1.jpg);
+  height: 76vh;
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.searchReservar {
+  background-color: #e3f0e4bd;
+  height: 50%;
+  width: 80%;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 5px 3px 10px 1px;
+          box-shadow: 5px 3px 10px 1px;
+  padding: 1rem 4rem;
+}
+
+.searchReservar h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+.botonCotizar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.botonCotizar div input {
+  padding: 0.9rem 3rem;
+  background-color: #C6EBC9;
+  border-radius: 1rem;
+}
+
+.searchReservar p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.cardsReservar {
+  margin-top: 7rem;
+}
+
+.cardsReservar h2 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 8rem;
+}
+
+.boxReservar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 45rem 45rem;
+      grid-template-rows: 45rem 45rem;
+  grid-column-gap: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.boxReservar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.boxReservar div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.boxReservar h3 {
+  font-size: 2rem;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+}
+
+.boxReservar p {
+  font-size: 1.5rem;
+}
+
+/*----------------- PAGINA GLAMPING----------------- */
+.bannerGlamping {
+  background-image: url(../imagenes/banner-glamping.jpg);
+  height: 76vh;
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerGlamping div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80%;
+  width: 50%;
+  margin-left: 12rem;
+}
+
+.bannerGlamping h1 {
+  font-size: 8rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  width: 100%;
+  height: 50%;
+  letter-spacing: 2px;
+}
+
+.bannerGlamping p {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: white;
+  font-weight: 400;
+  width: 90%;
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+
+.sustainableCard {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 4rem;
+  height: 100vh;
+}
+
+.sustainablePicture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sustainableText, .luxuryCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.sustainableText h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.sustainableText p {
+  font-size: 2rem;
+  width: 60%;
+}
+
+.luxuryCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.luxuryCard h2 {
+  text-align: right;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.luxuryCard p {
+  font-size: 2rem;
+  text-align: right;
+  margin-left: 10rem;
+}
+
+/*----------------- PAGINA NOSOTROS----------------- */
+.nosotrosTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nosotrosTitle h1 {
+  font-weight: 500;
+  font-size: 4rem;
+  margin-top: 4rem;
+  background-color: #C6EBC9;
+  padding: 1rem;
+}
+
+.nosotrosTitle p {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.consecoHistory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
+}
+
+.historyText {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.historyPicture {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.historyText h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.historyText p {
+  font-size: 2rem;
+  width: 57rem;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
+}
+
+.historyParagraph {
+  margin-top: 1rem;
+}
+
+/*----------------- CONTACTO----------------- */
+.contactTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+.contactTitle h1 {
+  font-size: 5rem;
+  background-color: #C6EBC9;
+  padding: 1rem;
+  width: 75%;
+  margin-bottom: 2rem;
+}
+
+.contactTitle h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.contactForm {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.contactForm form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1rem;
+  width: 40%;
+  font-size: 2rem;
+}
+
+.contactForm div input, .contactForm form div select {
+  height: 4rem;
+  margin-top: 1rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.contactForm div input:focus, .contactForm form div select:focus {
+  background-color: #cef7d2da;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.textArea label {
+  margin-bottom: 1rem;
+}
+
+.contactBottom input {
+  height: 4rem;
+  font-size: 1.5rem;
+  background-color: #b2d4b4;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+/*----------------- MEDIA ---------------- */
+/*-- TABLET --- */
+@media (max-width: 950px) {
+  .bannerText {
+    margin-left: 4rem;
+  }
+  .bannerText h1 {
+    font-size: 6rem;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+  .bannerText p {
+    width: 100%;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .searchReservar {
+    height: 70%;
+    width: 80%;
+  }
+  .searchReservar h1 {
+    font-size: 2rem;
+  }
+  .boxSearch div {
+    margin-top: 1rem;
+  }
+  .botonCotizar div {
+    margin-left: 40%;
+  }
+  .searchReservar p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .boxReservar {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+  .boxReservar div img {
+    height: 60%;
+  }
+  .bannerGlamping div {
+    height: 40%;
+    width: 80%;
+    margin: auto;
+  }
+  .bannerGlamping h1 {
+    font-size: 6rem;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+  .bannerGlamping p {
+    width: 100%;
+    padding-top: 1rem;
+    text-align: center;
+    padding: 0rem;
+  }
+  .sustainableCard {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 2rem;
+    height: 40vh;
+  }
+  .sustainableText h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .sustainableText p {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+  .luxuryCard h2 {
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .luxuryCard p {
+    font-size: 1.3rem;
+    text-align: right;
+    margin-left: 10rem;
+  }
+  .consecoHistory {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .historyPicture {
+    width: 70%;
+    margin-top: 1rem;
+  }
+  .contactForm form div {
+    width: 80%;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .socialMedia {
+    padding-bottom: 1rem;
+  }
+  .copyrightAutor {
+    font-size: 1.5rem;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/*-- MOBILE--- */
+@media (max-width: 590px) {
+  .bannerText {
+    margin-left: 0;
+  }
+  .bannerText h1 {
+    font-size: 4rem;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+  .bannerText p {
+    font-size: 1.2rem;
+    width: 100%;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .subtitlesHome div h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 400;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2rem;
+    height: 15rem;
+  }
+  .searchReservar {
+    height: 90%;
+    width: 90%;
+  }
+  .searchReservar h1 {
+    font-size: 1.5rem;
+  }
+  .botonCotizar div {
+    margin-left: 35%;
+  }
+  .searchReservar p {
+    font-size: 1rem;
+  }
+  .cardsReservar h2 {
+    font-size: 2rem;
+  }
+  .boxReservar {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
+  }
+  .boxReservar div img {
+    height: 60%;
+  }
+  .sustainableCard {
+    height: 35vh;
+    margin-top: 1rem;
+  }
+  .sustainableText h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .sustainableText p {
+    font-size: 1rem;
+    width: 70%;
+  }
+  .luxuryCard h2 {
+    font-size: 1rem;
+  }
+  .luxuryCard p {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .nosotrosTitle h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+  }
+  .nosotrosTitle p {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+  }
+  .historyText h2 {
+    font-size: 2rem;
+  }
+  .historyText p {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.2rem;
+  }
+  .contactTitle h1 {
+    font-size: 2rem;
+  }
+  .contactTitle h2 {
+    font-size: 1.5rem;
+  }
+  .contactForm form div {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .socialMedia {
+    padding-bottom: 1rem;
+  }
+  .socialMedia a {
+    margin: 0.5rem;
+  }
+  .copyrightAutor {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .iconoSubirContainer a img {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

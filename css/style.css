@@ -462,9 +462,9 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 80%;
-  width: 50%;
-  margin-left: 12rem;
+  height: 100%;
+  width: 100%;
+  margin-left: 10rem;
 }
 
 .bannerGlamping h1 {
@@ -473,19 +473,19 @@ footer {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  width: 100%;
-  height: 50%;
+  width: 75%;
+  height: 15%;
   letter-spacing: 2px;
+  margin-bottom: 4rem;
 }
 
 .bannerGlamping p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-style: italic;
   color: white;
   font-weight: 400;
-  width: 90%;
+  width: 50%;
   letter-spacing: 1px;
-  padding: 1rem;
 }
 
 .sustainableCard {
@@ -521,35 +521,23 @@ footer {
 }
 
 .sustainableText h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 
 .sustainableText p {
-  font-size: 2rem;
-  width: 60%;
-}
-
-.luxuryCard {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-item-align: center;
-      align-self: center;
+  font-size: 2.5rem;
+  width: 70%;
 }
 
 .luxuryCard h2 {
   text-align: right;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 
 .luxuryCard p {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: right;
   margin-left: 10rem;
 }
@@ -939,8 +927,9 @@ footer {
     height: 60%;
   }
   .sustainableCard {
-    height: 35vh;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
   }
   .sustainableText h2 {
     font-size: 1rem;
@@ -948,7 +937,10 @@ footer {
   }
   .sustainableText p {
     font-size: 1rem;
-    width: 70%;
+    width: 90%;
+  }
+  .sustainablePicture img {
+    height: 95%;
   }
   .luxuryCard h2 {
     font-size: 1rem;

@@ -36,7 +36,7 @@
     }
     
     .searchReservar h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .boxSearch div{
@@ -48,8 +48,7 @@
     }
     
     .searchReservar p{
-        font-size: 1.5rem;
-        text-align: center;
+        font-size: 2rem;
     }
     .boxReservar{
         grid-template-columns: 1fr 1fr;
@@ -174,7 +173,7 @@
     }
 
     .searchReservar{    
-        height: 90%;
+        height: 95%;
         width: 90%;
     }
     .searchReservar h1{
@@ -189,6 +188,19 @@
     .cardsReservar h2{
         font-size: 2rem;
     }
+
+    .form-floating  .form-control, .form-floating  .form-select {
+        height: 3.5rem;
+    }
+    
+    .form-control{
+        font-size: 1rem;
+    }
+    
+    .form-floating label {
+        font-size: 1rem;
+    }
+    
     .boxReservar{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;

@@ -23,7 +23,7 @@
 }
 
 .searchReservar h1{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     letter-spacing: 1px;
     font-family: $fuentesecundaria; 
@@ -43,7 +43,7 @@
 
 .searchReservar p{
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -90,4 +90,17 @@
 
 .boxReservar p{
     font-size: 1.5rem ;
+}
+
+.form-floating  .form-control, .form-floating  .form-select {
+    height: 5rem;
+}
+
+.form-control{
+    font-size: 1rem;
+}
+
+.form-floating label {
+    padding: 0.7rem 0.75rem;
+    font-size: 1.5rem;
 }

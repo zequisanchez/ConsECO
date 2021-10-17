@@ -316,7 +316,7 @@ footer {
 }
 
 .searchReservar h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
   letter-spacing: 1px;
   font-family: "Raleway", sans-serif;
@@ -340,7 +340,7 @@ footer {
 
 .searchReservar p {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -406,6 +406,19 @@ footer {
 }
 
 .boxReservar p {
+  font-size: 1.5rem;
+}
+
+.form-floating .form-control, .form-floating .form-select {
+  height: 5rem;
+}
+
+.form-control {
+  font-size: 1rem;
+}
+
+.form-floating label {
+  padding: 0.7rem 0.75rem;
   font-size: 1.5rem;
 }
 
@@ -717,7 +730,7 @@ footer {
     width: 80%;
   }
   .searchReservar h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .boxSearch div {
     margin-top: 1rem;
@@ -726,8 +739,7 @@ footer {
     margin-left: 40%;
   }
   .searchReservar p {
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 2rem;
   }
   .boxReservar {
     -ms-grid-columns: 1fr 1fr;
@@ -864,7 +876,7 @@ footer {
     letter-spacing: 1px;
   }
   .searchReservar {
-    height: 90%;
+    height: 95%;
     width: 90%;
   }
   .searchReservar h1 {
@@ -878,6 +890,15 @@ footer {
   }
   .cardsReservar h2 {
     font-size: 2rem;
+  }
+  .form-floating .form-control, .form-floating .form-select {
+    height: 3.5rem;
+  }
+  .form-control {
+    font-size: 1rem;
+  }
+  .form-floating label {
+    font-size: 1rem;
   }
   .boxReservar {
     -ms-grid-columns: 1fr;

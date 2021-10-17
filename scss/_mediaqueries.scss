@@ -31,20 +31,28 @@
     }
 
     .searchReservar{    
-        height: 70%;
+        height:78%;
         width: 80%;
     }
     
     .searchReservar h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
+        text-align: center;
     }
 
     .boxSearch div{
-        margin-top:1rem
+        margin-top:1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-floating  .form-control, .form-floating  .form-select {
+        width: 40rem;
     }
 
     .botonCotizar div{
-        margin-left:40%;
+        margin-bottom: 1rem;
+        margin-left: 0;
     }
     
     .searchReservar p{
@@ -179,9 +187,7 @@
     .searchReservar h1{
         font-size: 1.5rem;
     }
-    .botonCotizar div{
-        margin-left: 35%;
-    }
+
     .searchReservar p{
         font-size: 1rem;
     }
@@ -191,6 +197,7 @@
 
     .form-floating  .form-control, .form-floating  .form-select {
         height: 3.5rem;
+        width: 25rem;
     }
     
     .form-control{
@@ -199,6 +206,10 @@
     
     .form-floating label {
         font-size: 1rem;
+    }
+
+    .botonCotizar {
+        margin-left:0rem
     }
     
     .boxReservar{

@@ -27,12 +27,18 @@
     font-weight: 500;
     letter-spacing: 1px;
     font-family: $fuentesecundaria; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
     color: black;
 }
-
+.boxSearch{
+    align-self: center;
+}
 .botonCotizar{
     display: flex;
     align-items: center;
+    margin-left: 2rem;
 }
 
 .botonCotizar div input{
@@ -49,15 +55,16 @@
 
 .form-floating  .form-control, .form-floating  .form-select {
     height: 5rem;
+    width: 18rem;
 }
 
 .form-control{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .form-floating label {
     padding: 0.7rem 0.75rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .cardsReservar{

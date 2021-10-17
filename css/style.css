@@ -320,7 +320,20 @@ footer {
   font-weight: 500;
   letter-spacing: 1px;
   font-family: "Raleway", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: black;
+}
+
+.boxSearch {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .botonCotizar {
@@ -330,6 +343,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 2rem;
 }
 
 .botonCotizar div input {
@@ -346,15 +360,16 @@ footer {
 
 .form-floating .form-control, .form-floating .form-select {
   height: 5rem;
+  width: 18rem;
 }
 
 .form-control {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .form-floating label {
   padding: 0.7rem 0.75rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .cardsReservar {
@@ -726,17 +741,28 @@ footer {
     margin-bottom: 4rem;
   }
   .searchReservar {
-    height: 70%;
+    height: 78%;
     width: 80%;
   }
   .searchReservar h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
   }
   .boxSearch div {
     margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .form-floating .form-control, .form-floating .form-select {
+    width: 40rem;
   }
   .botonCotizar div {
-    margin-left: 40%;
+    margin-bottom: 1rem;
+    margin-left: 0;
   }
   .searchReservar p {
     font-size: 2rem;
@@ -882,9 +908,6 @@ footer {
   .searchReservar h1 {
     font-size: 1.5rem;
   }
-  .botonCotizar div {
-    margin-left: 35%;
-  }
   .searchReservar p {
     font-size: 1rem;
   }
@@ -893,12 +916,16 @@ footer {
   }
   .form-floating .form-control, .form-floating .form-select {
     height: 3.5rem;
+    width: 25rem;
   }
   .form-control {
     font-size: 1rem;
   }
   .form-floating label {
     font-size: 1rem;
+  }
+  .botonCotizar {
+    margin-left: 0rem;
   }
   .boxReservar {
     -ms-grid-columns: 1fr;

@@ -38,13 +38,39 @@
 .botonCotizar{
     display: flex;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 
-.botonCotizar div input{
-    padding: 0.9rem 3rem;
-    background-color: $colorprincipal;
-    border-radius: 1rem;    
+.botonCotizar button{
+    width: 20rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color:black;
+    padding: 1rem;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.botonCotizar button a{
+    text-decoration: none;
+    color: white;
+    font-family:$fuenteprincipal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: inline-block;
+    width:100%;
+    height:100%;
+    transition: all 0.5s;
+}
+.botonCotizar button:hover{
+    background-color:white;
+    color: black;
+    width: 22rem;
+}
+
+.botonCotizar button a:hover{
+    color: black;
 }
 
 .searchReservar p{

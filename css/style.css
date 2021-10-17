@@ -183,8 +183,8 @@ footer {
   background-color: #cce2ce77;
   padding: 4px;
   text-align: center;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .bannerText button a {
@@ -200,6 +200,7 @@ footer {
 
 .bannerText button:hover {
   background-color: #C6EBC9;
+  color: black;
 }
 
 .bannerText button a:hover {
@@ -343,13 +344,42 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
-.botonCotizar div input {
-  padding: 0.9rem 3rem;
-  background-color: #C6EBC9;
+.botonCotizar button {
+  width: 20rem;
+  font-size: 1.5rem;
+  border: none;
   border-radius: 1rem;
+  background-color: black;
+  padding: 1rem;
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.botonCotizar button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.botonCotizar button:hover {
+  background-color: white;
+  color: black;
+  width: 22rem;
+}
+
+.botonCotizar button a:hover {
+  color: black;
 }
 
 .searchReservar p {
@@ -694,12 +724,49 @@ footer {
   margin-bottom: 1rem;
 }
 
-.contactBottom input {
-  height: 4rem;
-  font-size: 1.5rem;
-  background-color: #b2d4b4;
+.contactBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.contactBottom button {
+  width: 20%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #C6EBC9;
+  padding: 1rem;
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 1px 1px 1px 1px;
+          box-shadow: 1px 1px 1px 1px;
+}
+
+.contactBottom button a {
+  text-decoration: none;
+  color: black;
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contactBottom button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contactBottom button a:hover {
+  color: black;
 }
 
 /*----------------- MEDIA ---------------- */
@@ -752,9 +819,12 @@ footer {
   .form-floating .form-control, .form-floating .form-select {
     width: 40rem;
   }
-  .botonCotizar div {
-    margin-bottom: 1rem;
+  .botonCotizar {
     margin-left: 0;
+  }
+  .botonCotizar button {
+    width: 10rem;
+    font-size: 1rem;
   }
   .searchReservar p {
     font-size: 2rem;

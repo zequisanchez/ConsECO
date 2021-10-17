@@ -48,7 +48,7 @@
     background-color:#cce2ce77;
     padding: 4px;
     text-align: center;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s;
 }
 
 .bannerText button a{
@@ -63,6 +63,7 @@
 }
 .bannerText button:hover{
     background-color:$colorprincipal;
+    color: black;
 }
 
 .bannerText button a:hover{

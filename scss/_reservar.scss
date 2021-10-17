@@ -47,51 +47,6 @@
     text-align: center;
 }
 
-.cardsReservar{
-    margin-top: 7rem;
-}
-
-.cardsReservar h2{
-    font-size: 3rem;
-    letter-spacing: 2px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 8rem;
-}
-
-.boxReservar{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 45rem 45rem;
-    grid-column-gap:3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.boxReservar div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    transition: all 500ms ease;
-}
-
-.boxReservar div:hover{ 
-    transform: scale(1.05);
-}
-
-.boxReservar h3 {
-    font-size: 2rem;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    letter-spacing: 1px;
-}
-
-.boxReservar p{
-    font-size: 1.5rem ;
-}
-
 .form-floating  .form-control, .form-floating  .form-select {
     height: 5rem;
 }
@@ -103,4 +58,46 @@
 .form-floating label {
     padding: 0.7rem 0.75rem;
     font-size: 1.5rem;
+}
+
+.cardsReservar{
+    margin-top: 7rem;
+    h2{
+        font-size: 3rem;
+        letter-spacing: 2px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8rem;
+    }
+}
+
+.boxReservar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 45rem 45rem;
+    grid-column-gap:3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        transition: all 500ms ease;
+        h3 {
+            font-size: 2rem;
+            height: 4rem;
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.boxReservar div:hover{ 
+    transform: scale(1.05);
+}
+
+.boxReservar p{
+    font-size: 1.5rem ;
 }

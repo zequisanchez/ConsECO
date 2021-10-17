@@ -344,6 +344,19 @@ footer {
   text-align: center;
 }
 
+.form-floating .form-control, .form-floating .form-select {
+  height: 5rem;
+}
+
+.form-control {
+  font-size: 1rem;
+}
+
+.form-floating label {
+  padding: 0.7rem 0.75rem;
+  font-size: 1.5rem;
+}
+
 .cardsReservar {
   margin-top: 7rem;
 }
@@ -388,12 +401,7 @@ footer {
   transition: all 500ms ease;
 }
 
-.boxReservar div:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.boxReservar h3 {
+.boxReservar div h3 {
   font-size: 2rem;
   height: 4rem;
   display: -webkit-box;
@@ -405,20 +413,12 @@ footer {
   letter-spacing: 1px;
 }
 
+.boxReservar div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .boxReservar p {
-  font-size: 1.5rem;
-}
-
-.form-floating .form-control, .form-floating .form-select {
-  height: 5rem;
-}
-
-.form-control {
-  font-size: 1rem;
-}
-
-.form-floating label {
-  padding: 0.7rem 0.75rem;
   font-size: 1.5rem;
 }
 

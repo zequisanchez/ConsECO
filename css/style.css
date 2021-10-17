@@ -558,14 +558,14 @@ footer {
 
 .nosotrosTitle h1 {
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 6rem;
   margin-top: 4rem;
   background-color: #C6EBC9;
   padding: 1rem;
 }
 
 .nosotrosTitle p {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-style: italic;
@@ -580,10 +580,11 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 4rem;
+  width: 100%;
 }
 
 .historyText {
-  width: 70%;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -597,26 +598,29 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: auto;
 }
 
 .historyPicture {
-  width: 50%;
+  width: 40%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-right: 2rem;
 }
 
 .historyText h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 4rem;
   text-align: center;
 }
 
 .historyText p {
-  font-size: 2rem;
+  font-size: 2.5rem;
   width: 57rem;
   text-align: center;
   letter-spacing: 1px;
@@ -811,6 +815,12 @@ footer {
     text-align: right;
     margin-left: 10rem;
   }
+  .nosotrosTitle h1 {
+    font-size: 4rem;
+  }
+  .nosotrosTitle p {
+    font-size: 2rem;
+  }
   .consecoHistory {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -823,6 +833,9 @@ footer {
   .historyPicture {
     width: 70%;
     margin-top: 1rem;
+  }
+  .historyText h2 {
+    font-size: 3rem;
   }
   .contactForm form div {
     width: 80%;

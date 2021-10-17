@@ -8,14 +8,14 @@
 
 .nosotrosTitle h1{
     font-weight:500;
-    font-size: 4rem;
+    font-size: 6rem;
     margin-top: 4rem;
     background-color:$colorprincipal;
     padding:1rem
 }
 
 .nosotrosTitle p{
-    font-size: 2rem;
+    font-size: 4rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-style: italic;
@@ -26,30 +26,34 @@
     margin-top: 4rem;
     align-items: center;
     margin-bottom: 4rem;
+    width: 100%;
 }
 
 .historyText{
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    margin: auto;
 }
 
 .historyPicture{
-    width: 50%;
+    width: 40%;
+    height: 100%;
     display: flex;
     justify-content: center;
+    margin-right:2rem
 }
 
 .historyText h2{
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 4rem;
     text-align: center;
 }
 
 .historyText p{
-    font-size:2rem;
+    font-size:2.5rem;
     width: 57rem;
     text-align: center;
     letter-spacing: 1px;

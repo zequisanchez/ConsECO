@@ -113,6 +113,12 @@
         text-align: right;
         margin-left: 10rem;
     }
+    .nosotrosTitle h1{
+        font-size: 4rem;
+    }
+    .nosotrosTitle p{
+        font-size: 2rem;
+    }
     .consecoHistory{
         display: flex;
         flex-direction: column;
@@ -121,6 +127,9 @@
         width: 70%;
         margin-top: 1rem;
     }  
+    .historyText h2{
+        font-size: 3rem;
+    }
     .contactForm form div{
         width: 80%;
     }

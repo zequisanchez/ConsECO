@@ -100,7 +100,7 @@ footer {
 
 .copyrightAutor {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   letter-spacing: 1px;
   width: 80%;
   display: -webkit-box;
@@ -223,12 +223,19 @@ footer {
           justify-content: space-evenly;
 }
 
+.cardInicio div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
 .cardInicio div article {
-  height: 320px;
-  width: 300px;
+  width: 20%;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
-  letter-spacing: 0.5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -248,8 +255,9 @@ footer {
 }
 
 .cardInicio div article h3 {
+  font-size: 2rem;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   height: 10%;
 }
 
@@ -259,6 +267,7 @@ footer {
 
 .cardInicio div article p {
   width: 100%;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -683,6 +692,19 @@ footer {
     padding-top: 1rem;
     text-align: center;
   }
+  .cardInicio div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .cardInicio div article {
+    width: 70%;
+    margin-bottom: 8rem;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
   .searchReservar {
     height: 70%;
     width: 80%;
@@ -823,6 +845,16 @@ footer {
             align-items: center;
     font-size: 2rem;
     height: 15rem;
+  }
+  .cardInicio div article {
+    width: 80%;
+  }
+  .cardInicio div article h3 {
+    font-size: 1.5rem;
+  }
+  .cardInicio div article p {
+    font-size: 1rem;
+    letter-spacing: 1px;
   }
   .searchReservar {
     height: 90%;

@@ -18,6 +18,18 @@
         text-align: center;
     }
 
+    .cardInicio div{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cardInicio div article{
+        width:70%;
+        margin-bottom:8rem;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
     .searchReservar{    
         height: 70%;
         width: 80%;
@@ -147,6 +159,20 @@
         font-size: 2rem;
         height: 15rem;
     }
+
+    .cardInicio div article{
+        width:80%;
+    }
+
+    .cardInicio div article h3{
+        font-size: 1.5rem;
+    }
+
+    .cardInicio div article p{
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
     .searchReservar{    
         height: 90%;
         width: 90%;
